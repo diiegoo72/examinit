@@ -1,5 +1,7 @@
 package com.diego.examinit.domain.attempt;
 
-public class ExamAttemptStatus {
-    
+public enum ExamAttemptStatus {
+    IN_PROGRESS,
+    SUBMITTED,
+    GRADED
 }

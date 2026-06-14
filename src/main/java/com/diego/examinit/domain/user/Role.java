@@ -1,5 +1,6 @@
 package com.diego.examinit.domain.user;
 
-public class Role {
-    
+public enum Role {
+    TEACHER,
+    STUDENT
 }
